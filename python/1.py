@@ -1,0 +1,17 @@
+print('Hello')
+print("Hello")
+print("Hello 'word'")
+print('hello' * 3)
+print('Hello' [0])
+print('Hello' [1])
+print('hello world'.capitalize())
+print('hello word'.upper())
+print('hello world'.__len__())
+print(len('hello world'))
+print('hello world'.replace('world', 'progrmming'))
+print('\a')
+print("hello\nworld")
+print('hello\nworld')
+
+title = "python & ruby"
+print("Title is " + title)
