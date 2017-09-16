@@ -1,0 +1,17 @@
+puts('hello')
+puts("Hello")
+puts('hello "world"')
+puts('Hello'+'world')
+puts('Hello' * 3)
+puts('Hello'[0])
+puts('Hello'[1])
+puts('hello world'.capitalize())
+puts('hello world'.upcase())
+puts('hello world'.length())
+puts('Hello world'.sub('world', 'progrmming'))
+puts('\a')
+puts("Hello\nworld")
+puts('Hello\nworld')
+
+title = "python & ruby"
+puts("Title is " + title)
