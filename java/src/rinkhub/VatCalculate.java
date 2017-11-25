@@ -12,7 +12,6 @@ public class VatCalculate {
         System.out.println("공급가액:"+supplyValue);
         System.out.println("세액1:"+vat);
         System.out.println(supplyValue + vat);
-
         System.out.println("=================================");
 
         supplyValue = supplyValueCalculate(totalValue);
@@ -20,7 +19,6 @@ public class VatCalculate {
         System.out.println("공급가액:"+supplyValue);
         System.out.println("세액2:"+vat);
         System.out.println(supplyValue + vat);
-
         System.out.println(supplyValue);
     }
 
@@ -39,7 +37,3 @@ public class VatCalculate {
         return totalValue - supplyValue;
     }
 }
-
-
-
-
