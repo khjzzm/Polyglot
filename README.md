@@ -1,1 +1,1 @@
-자바,파이썬 그리고 루비
+for polyglot programmer
