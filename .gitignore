@@ -445,3 +445,7 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/c,ruby,java,macos,python,windows,clion+all,pycharm+all,rubymine+all,intellij+all
+
+
+# Created by kimhyunjin kotilin
+*.kotlin_module
