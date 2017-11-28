@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const Pi = 3.14
+const Pi float32 = 3.14
 
 func main() {
 	const World = "안녕"
