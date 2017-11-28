@@ -2,12 +2,13 @@ if true
   puts("code1")
   puts("code2")
 end
-  puts("code3")
+puts("code3")
 
 
 real = 10
 password = 20
 password2 = 10
+# input = 10
 
 if real == input
   puts("안녕하세요")
