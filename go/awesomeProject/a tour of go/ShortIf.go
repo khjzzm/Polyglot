@@ -8,8 +8,11 @@ import (
 func pow(x, n, limit float64) float64  {
 	if v := math.Pow(x, n); v < limit {
 		return v
+	} else {
+		fmt.Printf("%g >= %g\n", v, limit)
 	}
 	return limit
+
 }
 
 func main() {
