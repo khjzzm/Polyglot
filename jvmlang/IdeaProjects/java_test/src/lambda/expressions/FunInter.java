@@ -6,7 +6,6 @@ package lambda.expressions;
 // 기능 인터페이스에는 default 또는 static 메소드가 여러 개있을 수 있습니다.
 //(이러한 이유 때문에 때때로 Single Abstract Method Interfaces 또는 SAM Interfaces라고도 함).
 public class FunInter {
-
 }
 
 interface Foo1 {
