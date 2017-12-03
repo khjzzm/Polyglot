@@ -4,16 +4,14 @@ import (
 	"database/sql"
 	"fmt"
 	_ "github.com/go-sql-driver/mysql"
-	"log"
 	"io/ioutil"
+	"log"
 )
 
-var (
-	driverName     string = "mysql"
-)
+const driverName string = "mysql"
 
 func main() {
-	db, err := sql.Open(driverName, dataSourceName("dbconection.txt"))
+	db, err := sql.Open(driverName, dataSourceName("textDirectory/dbconection.txt"))
 	if err != nil {
 		log.Fatal(err)
 		panic(err)
@@ -32,7 +30,7 @@ func main() {
 
 func dataSourceName(filename string) string  {
 	bytes, err := ioutil.ReadFile(filename)
-	if(err != nil) {
+	if err != nil {
 		panic(err)
 	}
 	return string(bytes)
