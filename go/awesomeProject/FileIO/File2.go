@@ -8,7 +8,7 @@ import (
 
 func main() {
 	//func Open(name string) (file *File, err error): 기존 파일을 열기
-	fi, err := os.Open("hello1.txt")
+	fi, err := os.Open("textDirectory/hello1.txt")
 	if err != (nil) {
 		panic(err)
 	}
