@@ -16,12 +16,15 @@ var num4, num5, str1 = 4, 5, "example"
 
 //⑤ 다른 타입을 가지는 변수를 여러 개 선언
 var (
-	i int
-	b bool
-	s string
+	byte1 byte = 10   // 10진수 저장
+	byte2 byte = 0xf // 16진수 저장
+	byte3 byte = 'a'  // 문자 저장
+	i    int
+	b    bool
+	s    string
 )
 
-func main(){
+func main() {
 	fmt.Println("①", num1)
 	fmt.Println("②", num2, num3)
 	fmt.Println("③", num4, num5, str1)
@@ -31,4 +34,10 @@ func main(){
 	fmt.Println("④", num6)
 
 	fmt.Println("⑤", i, b, s)
+
+
+	fmt.Println("6", byte1, byte2, byte3)
+
+
+
 }
