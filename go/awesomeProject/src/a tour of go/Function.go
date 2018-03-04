@@ -25,4 +25,6 @@ func main() {
 
 	_, diff2 := SumAndDiff2(6, 2) // 첫 번째 리턴값은 _으로 생략, 두 번째 리턴값만 사용
 	fmt.Println(diff2)
+
+
 }
